@@ -11,7 +11,7 @@ git clone https://github.com/Omar0902/SDOM.git
 ```
 - While the new branch is merged in main, please open in VS code the folder with the SDOM source code and open the correct branch:
 ```powershell
-git checkout sm/io_improovements
+git checkout sm/improove_input_parameters
 ```
 
 ## INSTALL uv AND CREATE A VIRTUAL ENVIROMENT
