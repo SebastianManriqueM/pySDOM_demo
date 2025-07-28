@@ -1,10 +1,11 @@
 # IMPORT SDOM - Notice the name SDOM python module might change to "pySDOM"
-from SDOM import run_solver, initialize_model
+from SDOM import run_solver, initialize_model, configure_logging
 from SDOM import load_data, export_results
 import time
 
 def main( with_resilience_constraints = False, case='test_data' ):
-    n_steps = 8760  # Number of steps in the simulation
+    configure_logging()
+    n_steps = 48  # Number of steps in the simulation
 
     start_time = time.time()
     data = load_data( "C:\\Users\\smachado\\repositories\\pySDOM\\SDOM\\Data" ) 
