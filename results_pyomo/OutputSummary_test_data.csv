@@ -1,0 +1,92 @@
+Metric,Technology,Run,Optimal Value,Unit
+Total cost,,1,4596813574.88827,$US
+Capacity,GasCC,1,0.0,MW
+Capacity,Solar PV,1,0.0,MW
+Capacity,Wind,1,22382.297710498882,MW
+Capacity,All,1,22382.297710498882,MW
+Total generation,GasCC,1,0.0,MWh
+Total generation,Solar PV,1,0.0,MWh
+Total generation,Wind,1,1085621.561,MWh
+Total generation,Other renewables,1,86761.02953,MWh
+Total generation,Hydro,1,110259.79246,MWh
+Total generation,Nuclear,1,109087.76637999999,MWh
+Total generation,LiIon,1,5087.654243000001,MWh
+Total generation,CAES,1,52338.642684,MWh
+Total generation,PHS,1,0.0,MWh
+Total generation,H2,1,0.0,MWh
+Total generation,All,1,1449156.446297,MWh
+Storage energy charging,LiIon,1,5915.87705,MWh
+Storage energy charging,CAES,1,82797.27658,MWh
+Storage energy charging,PHS,1,0.0,MWh
+Storage energy charging,H2,1,-1.7053026e-11,MWh
+Storage energy charging,All,1,88713.15362999999,MWh
+Total demand,demand,1,1360443.2923299999,MWh
+CAPEX,Solar PV,1,0.0,$US
+CAPEX,Wind,1,2888330581.0368924,$US
+CAPEX,GasCC,1,0.0,$US
+CAPEX,All,1,2888330581.0368924,$US
+Power-CAPEX,LiIon,1,13468205.588448578,$US
+Power-CAPEX,CAES,1,265002886.46781892,$US
+Power-CAPEX,PHS,1,0.0,$US
+Power-CAPEX,H2,1,0.0,$US
+Power-CAPEX,All,1,278471092.0562675,$US
+Energy-CAPEX,LiIon,1,23562100.260069765,$US
+Energy-CAPEX,CAES,1,165758926.99803397,$US
+Energy-CAPEX,PHS,1,0.0,$US
+Energy-CAPEX,H2,1,0.0,$US
+Energy-CAPEX,All,1,189321027.25810373,$US
+Total-CAPEX,LiIon,1,37030305.84851834,$US
+Total-CAPEX,CAES,1,430761813.46585286,$US
+Total-CAPEX,PHS,1,0.0,$US
+Total-CAPEX,H2,1,0.0,$US
+Total-CAPEX,All,1,467792119.3143712,$US
+FOM,GasCC,1,0.0,$US
+FOM,Solar PV,1,0.0,$US
+FOM,Wind,1,87909652.43151446,$US
+FOM,LiIon,1,12559485.25,$US
+FOM,CAES,1,17838473.237796403,$US
+FOM,PHS,1,0.0,$US
+FOM,H2,1,0.0,$US
+FOM,All,1,118307610.91931087,$US
+VOM,GasCC,1,0.0,$US
+VOM,LiIon,1,15720.851610870002,$US
+VOM,CAES,1,215672.8916808125,$US
+VOM,PHS,1,0.0,$US
+VOM,H2,1,0.0,$US
+VOM,All,1,231393.7432916825,$US
+OPEX,GasCC,1,0.0,$US
+OPEX,Solar PV,1,0.0,$US
+OPEX,Wind,1,87909652.43151446,$US
+OPEX,LiIon,1,12575206.10161087,$US
+OPEX,CAES,1,18054146.129477218,$US
+OPEX,PHS,1,0.0,$US
+OPEX,H2,1,0.0,$US
+OPEX,All,1,118539004.66260254,$US
+Charge power capacity,LiIon,1,1219.3675,MW
+Charge power capacity,CAES,1,4319.2882,MW
+Charge power capacity,PHS,1,0.0,MW
+Charge power capacity,H2,1,0.0,MW
+Charge power capacity,All,1,5538.6557,MW
+Discharge power capacity,LiIon,1,1219.3675,MW
+Discharge power capacity,CAES,1,4333.6316,MW
+Discharge power capacity,PHS,1,0.0,MW
+Discharge power capacity,H2,1,0.0,MW
+Discharge power capacity,All,1,5552.9991,MW
+Average power capacity,LiIon,1,1219.3675,MW
+Average power capacity,CAES,1,4326.4599,MW
+Average power capacity,PHS,1,0.0,MW
+Average power capacity,H2,1,0.0,MW
+Average power capacity,All,1,5545.8274,MW
+Energy capacity,LiIon,1,1803.3008,MWh
+Energy capacity,CAES,1,65829.303,MWh
+Energy capacity,PHS,1,0.0,MWh
+Energy capacity,H2,1,0.0,MWh
+Energy capacity,All,1,67632.6038,MWh
+Duration,LiIon,1,1.1277582310997292,h
+Duration,CAES,1,3.0987521037918233,h
+Duration,PHS,1,0.0,h
+Duration,H2,1,0.0,h
+Equivalent number of cycles,LiIon,1,2.8213009404753775,-
+Equivalent number of cycles,CAES,1,0.7950660313690394,-
+Equivalent number of cycles,PHS,1,0.0,-
+Equivalent number of cycles,H2,1,0.0,-
