@@ -1,54 +1,79 @@
-# NREL SDOM (Storage Deploymrnt Optimization Model) demo
-This is a repository to demonstrate how to setup and work with the python-based version of NREL Storage Deployment Optimization Model "sdom" that is now released.
+# NREL SDOM (Storage Deployment Optimization Model) Demo
 
-# INSTRUCTIONS
+This repository demonstrates how to set up and use the Python-based version of NREL's Storage Deployment Optimization Model (SDOM).
 
+## Contents
 
-## INSTALL uv AND CREATE A VIRTUAL ENVIROMENT
-- Install uv (A python manager for virtual enviroments, installing packages etc). Follow the instructions in: https://pypi.org/project/uv/
-- Create a virtual enviroment ".venv"
-```powershell
-uv venv .venv
-```
-This command creates a new Python virtual environment in the `.venv` directory.
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+      - [Install uv and Create a Virtual Environment](#install-uv-and-create-a-virtual-environment)
+      - [Install SDOM Python Package and Logging](#install-sdom-python-package-and-logging)
+- [Usage](#usage)
 
-## INSTALL SDOM PYTHON PACKAGE AND LOGGING
-- Install, in your local virtual enviroment that you've just created, the python SDOM module by doing:
-```powershell
-uv pip install sdom
-```
-- It will install also the SDOM dependencies. 
+## Introduction
 
-- Also install Logging package executing:
-```powershell
-uv pip install logging
-```
+SDOM is a tool for optimizing storage deployment. This guide will help you get started with the Python implementation.
 
-- Check your enviroment. If you do:
-```powershell
-uv pip list
-```
-You should see something like this:
+## Prerequisites
 
-```powershell
-Package         Version
---------------- -----------
-logging         0.4.9.6
-numpy           2.3.2
-pandas          2.3.1
-ply             3.11
-pyomo           6.9.3
-python-dateutil 2.9.0.post0
-pytz            2025.2
-sdom            0.0.3
-six             1.17.0
-tzdata          2025.2
-```
+- Python installed on your system.
+- Access to the command line (PowerShell or similar).
 
+## Installation
 
-# USE SDOM
+### Install uv and Create a Virtual Environment
 
-- Please see the script in this repo "demo.py" as an example on how you can use SDOM.
-- In this Demo it was used cbc solver. please copy also the "Solver" folder and specify the address to the cbc.exe.
+1. Install `uv`, a Python manager for virtual environments and packages. Follow the instructions at [uv on PyPI](https://pypi.org/project/uv/).
+2. Create a new virtual environment named `.venv`:
 
+            ```powershell
+            uv venv .venv
+            ```
+
+            This command creates a Python virtual environment in the `.venv` directory.
+
+### Install SDOM Python Package and Logging
+
+1. Activate your virtual environment and install the SDOM package:
+
+            ```powershell
+            uv pip install sdom
+            ```
+
+            This will also install all required dependencies.
+
+2. Install the Logging package:
+
+            ```powershell
+            uv pip install logging
+            ```
+
+3. Verify your environment by listing installed packages:
+
+            ```powershell
+            uv pip list
+            ```
+
+            You should see output similar to:
+
+            ```powershell
+            Package         Version
+            --------------- -----------
+            logging         0.4.9.6
+            numpy           2.3.2
+            pandas          2.3.1
+            ply             3.11
+            pyomo           6.9.3
+            python-dateutil 2.9.0.post0
+            pytz            2025.2
+            sdom            0.0.3
+            six             1.17.0
+            tzdata          2025.2
+            ```
+
+## Usage
+
+- Refer to the `demo.py` script in this repository for an example of how to use SDOM.
+- The demo uses the CBC solver. To use it, copy the `Solver` folder and specify the path to `cbc.exe` in your configuration.
 
