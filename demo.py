@@ -1,8 +1,5 @@
-# IMPORT SDOM - Notice the name SDOM python module might change to "pySDOM
-# import sdom
 import sdom
-print(sdom.__file__)
-print(dir(sdom))
+
 from sdom import run_solver, initialize_model, configure_logging
 from sdom import load_data, export_results
 import time

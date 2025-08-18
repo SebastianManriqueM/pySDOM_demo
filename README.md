@@ -75,5 +75,6 @@ SDOM is a tool for optimizing storage deployment. This guide will help you get s
 ## Usage
 
 - Refer to the `demo.py` script in this repository for an example of how to use SDOM.
+- Do not forget to include in you project the compiled code of cbc solver and point the path when executing "run_solver()" function. Currently python version of SDOM only runs with this solver.
 - The demo uses the CBC solver. To use it, copy the `Solver` folder and specify the path to `cbc.exe` in your configuration.
 
